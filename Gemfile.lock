@@ -13,7 +13,10 @@ GEM
       multipart-post (>= 1.2, < 3)
     ice_nine (0.11.2)
     inflecto (0.0.2)
+    json (1.8.6)
     multipart-post (2.0.0)
+    open-weather (0.12.0)
+      json (~> 1)
     telegram-bot-ruby (0.8.6.1)
       faraday
       inflecto
@@ -29,6 +32,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  open-weather
   telegram-bot-ruby
 
 BUNDLED WITH
